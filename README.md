@@ -2,38 +2,9 @@
 
 [![Build Status](https://travis-ci.org/Codearte/jfairy.svg?branch=master)](https://travis-ci.org/Codearte/jfairy) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.jfairy/jfairy/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.jfairy/jfairy)
 
-
 Java fake data generator. Based on Wikipedia:
 
 > Fairyland, in folklore, is the fabulous land or abode of fairies or fays.
-
-## Adding into project
-
-In Maven projects (pom.xml):
-
-```xml
-<pom>
-    ...
-    <dependencies>
-        <dependency>
-            <groupId>org.jfairy</groupId>
-            <artifactId>jfairy</artifactId>
-            <version>0.2.5</version>
-        </dependency>
-    </dependencies>
-    ...
-</pom>
-```
-
-In Gradle projects (build.gradle):
-
-```groovy
-repositories {
-    mavenCentral()
-}
-...
-testCompile 'org.jfairy:jfairy:0.2.5'
-```
 
 ## Usage
 
